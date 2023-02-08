@@ -1,0 +1,44 @@
+body{
+    margin: 0%;
+    padding: 0;
+    font-family: sans-serif;
+    background: #333;
+}
+
+.centerBox{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.centerBox h2{
+    float: left;
+    font-size: 30px;
+    border-bottom: 6px solid;
+    margin-bottom: 60px;
+    padding: 13px;
+    color: wheat;
+  
+}
+.textBox{
+   width: 100%;
+    background-color: wheat;
+    color: #333;
+    border: transparent;
+    border-radius: 10px ;
+    outline: none;
+    padding: 3px;
+    font-size: 20px;
+    
+}
+
+.textLabel{
+    width: 100%;
+    font-size: 30px;
+    border-bottom: 2px solid;
+    padding: 8px 0;
+    margin: 8px 0;
+    color: wheat;
+}
